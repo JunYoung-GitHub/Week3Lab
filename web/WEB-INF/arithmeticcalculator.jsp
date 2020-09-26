@@ -16,7 +16,7 @@
         <form method="post" action="arithmetic">
             First: <input type="text" name="first" value="${first}"><br>
             Second: <input type="text" name="second" value="${second}"><br>
-            <input type="submit" value="+"><input type="submit" value="-"><input type="submit" value="*"><input type="submit" value="%"><br><br>
+            <input type="submit" value="+" name="submit"><input type="submit" value="-" name="submit"><input type="submit" value="*" name="submit"><input type="submit" value="%" name="submit"><br><br>
             ${artMessage}<br>
             <a href="age">Age Calculator</a>
         </form>
